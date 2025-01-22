@@ -28,7 +28,7 @@ text_splitter = CharacterTextSplitter(
 texts = text_splitter.split_documents(documents)
 
 embeddings = HuggingFaceEmbeddings()
-vector = FAISS.from_documents(documents, embeddings)
+vector = FAISS.from_documents(texts, embeddings)
 retriever = vector.as_retriever()
 
 mdoel_id = "meta-llama/Llama-3.2-3B-Instruct"
