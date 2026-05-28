@@ -34,3 +34,21 @@ python run-mistralai.py
 ```bash
 python run_open_llm.py
 ```
+
+** More details can be found at our publised work:
+
+<pre><code>
+@ARTICLE{11300859,
+  author={Amaral Cejas, Orlando and Guo, Yuejun and Tang, Qiang},
+  journal={IEEE Access}, 
+  title={From Retrieval to Response: Tracing the Impact of Embedding Quality in RAG Systems}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={212773-212781},
+  doi={10.1109/ACCESS.2025.3644595}}
+
+</code></pre>
+
+
+If you use this project, please consider citing us.
